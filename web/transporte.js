@@ -1,10 +1,11 @@
-const permitidas = new Set(['registrar_pedido', 'pedido_mesa', 'cobrar_pedido']);
-const lecturas = new Set(['cola_pedidos','pedidos_demorados','comandas','buscar_cliente','cuadre_domiciliario','consultar_existencias','alertas_stock','menu_disponible','reporte_ventas','historial_cajas','reporte_atencion','mis_domicilios','ver_auditoria','listar_usuarios','pedidos_operables','detalle_pedido','lineas_operables','modificadores_producto','estado_caja','integridad_auditoria','preferencias_operacion','version_privacidad','listar_clientes']);
+const permitidas = new Set(['registrar_pedido', 'pedido_mesa', 'cobrar_pedido','portal_crear_pedido','portal_registrar_pedido']);
+const lecturas = new Set(['cola_pedidos','pedidos_demorados','comandas','buscar_cliente','cuadre_domiciliario','consultar_existencias','alertas_stock','menu_disponible','reporte_ventas','historial_cajas','reporte_atencion','mis_domicilios','ver_auditoria','listar_usuarios','pedidos_operables','detalle_pedido','lineas_operables','modificadores_producto','estado_caja','integridad_auditoria','preferencias_operacion','version_privacidad','listar_clientes','listar_restaurantes','detalle_restaurante','resumen_restaurantes','listar_pedidos_restaurantes','portal_quejas','portal_perfil','portal_directorio','portal_restaurante','portal_pedidos','portal_pedido','portal_panel','portal_inventario','portal_receta','portal_usuarios','portal_domiciliarios','portal_reportes','portal_version_privacidad']);
 let propietario = sessionStorage.getItem('parche.usuario') || '';
 let sincronizando = false;
+const contextoActual=()=>sessionStorage.getItem('parche.contexto.'+propietario)||'';
 async function revisarPrivacidad() {
  if (!propietario) return;
- const respuesta = await red('/api/accion/version_privacidad', {}, crypto.randomUUID());
+ const respuesta = await red('/api/accion/portal_version_privacidad', {}, crypto.randomUUID());
  const clave = 'parche.privacidad.' + propietario;
  const anterior = sessionStorage.getItem(clave);
  if (anterior !== String(respuesta.version)) {
@@ -74,6 +75,7 @@ export async function sincronizar() {
   await revisarPrivacidad();
   for (const item of await pendientes()) {
    if (item.estado === 'rechazada') break;
+   if(item.contexto&&item.contexto!==contextoActual()){item.estado='rechazada';item.error='La cuenta cambió de espacio. Revisa esta operación antes de enviarla.';await guardar('cola',item);break;}
    try {
     await red(item.path, item.datos, item.id);
     await borrar('cola', item.id);
@@ -101,13 +103,13 @@ export async function transporte(path, data, id) {
  if (escritura) {
   if (!propietario) throw new Error('Inicia sesión antes de registrar operaciones.');
   if (clave !== 'cobrar_pedido') data.id = data.id || id;
-  item = {id,path,datos:structuredClone(data),usuario:propietario,fecha:Date.now(),estado:'pendiente'};
+  item = {id,path,datos:structuredClone(data),usuario:propietario,contexto:contextoActual(),fecha:Date.now(),estado:'pendiente'};
   const existente = (await pendientes()).find(x => x.id === id);
   if (existente && JSON.stringify(existente.datos) !== JSON.stringify(item.datos)) throw new Error('El identificador ya corresponde a otra operación.');
   if (existente) item = existente;
   await guardar('cola', item);
  }
- const cacheId = propietario + ':' + path + ':' + JSON.stringify(data || {});
+ const cacheId = clave==='portal_perfil'?propietario+':perfil':propietario+':'+contextoActual()+':'+path+':'+JSON.stringify(data||{});
  try {
   const result = await red(path, data, id);
   if (escritura) await borrar('cola', id);
@@ -116,6 +118,7 @@ export async function transporte(path, data, id) {
    sessionStorage.setItem('parche.usuario', propietario);await revisarPrivacidad();
    await guardar('cache', {id:propietario+':catalogo',valor:result,fecha:Date.now()});
   } else if (lecturas.has(clave)) {
+   if(clave==='portal_perfil'){const nuevo=result.usuario.rol+':'+(result.restaurante?.id||'');const anterior=contextoActual();if(anterior&&anterior!==nuevo){for(const registro of await registros('cache'))if(registro.id.startsWith(propietario+':'))await borrar('cache',registro.id);}sessionStorage.setItem('parche.contexto.'+propietario,nuevo);}
    await guardar('cache', {id:cacheId,valor:result,fecha:Date.now()});
   }
   if (path === '/api/logout') {

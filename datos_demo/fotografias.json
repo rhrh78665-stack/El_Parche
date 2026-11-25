@@ -1,0 +1,227 @@
+[
+  {
+    "categoria": "hamburguesas",
+    "id": "1568901346375-23c9450c58cd",
+    "url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 113646,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg"
+  },
+  {
+    "categoria": "hamburguesas",
+    "id": "1550547660-d9450f859349",
+    "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 190945,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/hamburguesas_1550547660-d9450f859349.jpg"
+  },
+  {
+    "categoria": "hamburguesas",
+    "id": "1571091718767-18b5b1457add",
+    "url": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 117953,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/hamburguesas_1571091718767-18b5b1457add.jpg"
+  },
+  {
+    "categoria": "pizzas",
+    "id": "1513104890138-7c749659a591",
+    "url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 199243,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/pizzas_1513104890138-7c749659a591.jpg"
+  },
+  {
+    "categoria": "pizzas",
+    "id": "1579751626657-72bc17010498",
+    "url": "https://images.unsplash.com/photo-1579751626657-72bc17010498?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 103826,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/pizzas_1579751626657-72bc17010498.jpg"
+  },
+  {
+    "categoria": "pizzas",
+    "id": "1593560708920-61dd98c46a4e",
+    "url": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 392570,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/pizzas_1593560708920-61dd98c46a4e.jpg"
+  },
+  {
+    "categoria": "perros",
+    "id": "1612392062631-94dd858cba88",
+    "url": "https://images.unsplash.com/photo-1612392062631-94dd858cba88?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 96001,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/perros_1612392062631-94dd858cba88.jpg"
+  },
+  {
+    "categoria": "alitas",
+    "id": "1567620832903-9fc6debc209f",
+    "url": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 192638,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/alitas_1567620832903-9fc6debc209f.jpg"
+  },
+  {
+    "categoria": "alitas",
+    "id": "1626082927389-6cd097cdc6ec",
+    "url": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 168238,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/alitas_1626082927389-6cd097cdc6ec.jpg"
+  },
+  {
+    "categoria": "alitas",
+    "id": "1562967914-608f82629710",
+    "url": "https://images.unsplash.com/photo-1562967914-608f82629710?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 145617,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/alitas_1562967914-608f82629710.jpg"
+  },
+  {
+    "categoria": "tacos",
+    "id": "1551504734-5ee1c4a1479b",
+    "url": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 149176,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/tacos_1551504734-5ee1c4a1479b.jpg"
+  },
+  {
+    "categoria": "tacos",
+    "id": "1565299585323-38d6b0865b47",
+    "url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 206223,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/tacos_1565299585323-38d6b0865b47.jpg"
+  },
+  {
+    "categoria": "tacos",
+    "id": "1613514785940-daed07799d9b",
+    "url": "https://images.unsplash.com/photo-1613514785940-daed07799d9b?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 219226,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/tacos_1613514785940-daed07799d9b.jpg"
+  },
+  {
+    "categoria": "papas",
+    "id": "1573080496219-bb080dd4f877",
+    "url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 192787,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/papas_1573080496219-bb080dd4f877.jpg"
+  },
+  {
+    "categoria": "papas",
+    "id": "1630384060421-cb20d0e0649d",
+    "url": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 116625,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/papas_1630384060421-cb20d0e0649d.jpg"
+  },
+  {
+    "categoria": "papas",
+    "id": "1518013431117-eb1465fa5752",
+    "url": "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 75897,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/papas_1518013431117-eb1465fa5752.jpg"
+  },
+  {
+    "categoria": "sushi",
+    "id": "1579871494447-9811cf80d66c",
+    "url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 168606,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/sushi_1579871494447-9811cf80d66c.jpg"
+  },
+  {
+    "categoria": "sushi",
+    "id": "1553621042-f6e147245754",
+    "url": "https://images.unsplash.com/photo-1553621042-f6e147245754?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 164617,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/sushi_1553621042-f6e147245754.jpg"
+  },
+  {
+    "categoria": "sushi",
+    "id": "1617196034796-73dfa7b1fd56",
+    "url": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 64487,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/sushi_1617196034796-73dfa7b1fd56.jpg"
+  },
+  {
+    "categoria": "sandwiches",
+    "id": "1528735602780-2552fd46c7af",
+    "url": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 169548,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/sandwiches_1528735602780-2552fd46c7af.jpg"
+  },
+  {
+    "categoria": "sandwiches",
+    "id": "1539252554453-80ab65ce3586",
+    "url": "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 150575,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/sandwiches_1539252554453-80ab65ce3586.jpg"
+  },
+  {
+    "categoria": "bowls",
+    "id": "1512621776951-a57141f2eefd",
+    "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 176530,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/bowls_1512621776951-a57141f2eefd.jpg"
+  },
+  {
+    "categoria": "bowls",
+    "id": "1511690743698-d9d85f2fbf38",
+    "url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 251087,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/bowls_1511690743698-d9d85f2fbf38.jpg"
+  },
+  {
+    "categoria": "bowls",
+    "id": "1540420773420-3366772f4999",
+    "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 424487,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/bowls_1540420773420-3366772f4999.jpg"
+  },
+  {
+    "categoria": "arepas",
+    "id": "1745376211713-04fa3ffa3722",
+    "url": "https://images.unsplash.com/photo-1745376211713-04fa3ffa3722?fm=jpg&fit=crop&w=1000&q=83",
+    "bytes": 105517,
+    "origen": "Unsplash",
+    "licencia": "https://unsplash.com/license",
+    "imagen": "/media/arepas_1745376211713-04fa3ffa3722.jpg"
+  }
+]

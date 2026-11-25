@@ -1,4 +1,4 @@
-import json, os, ssl, secrets, time, importlib.util, threading
+import json, os, ssl, secrets, time, importlib.util, threading, base64
 from bloqueo import bloquear
 from respaldo import trabajador
 from pathlib import Path
@@ -18,7 +18,7 @@ class Handler(BaseHTTPRequestHandler):
     def responder(self, status, valor, tipo='application/json', cookie=None):
         data = json.dumps(valor, ensure_ascii=False).encode() if tipo == 'application/json' else valor
         self.send_response(status)
-        self.send_header('Content-Type', tipo + '; charset=utf-8')
+        self.send_header('Content-Type', tipo + ('; charset=utf-8' if tipo.startswith('text/') or tipo in ['application/json', 'application/javascript'] else ''))
         self.send_header('Content-Length', str(len(data)))
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.send_header('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
@@ -36,7 +36,7 @@ class Handler(BaseHTTPRequestHandler):
         cookies = dict((x.strip().split('=', 1) for x in self.headers.get('Cookie', '').split(';') if '=' in x))
         token = cookies.get('sesion', '')
         r = c.execute('SELECT u.id,u.nombre,u.rol FROM sesiones s JOIN usuarios u ON u.id=s.usuario WHERE s.token=? AND s.expira>? AND u.activo=1', (hashlib.sha256(token.encode()).hexdigest(), time.time())).fetchone()
-        exigir(r, 'Inicie sesión')
+        exigir(r and r['rol'] in ['restaurante', 'cliente'], 'Inicie sesión')
         return dict(r)
 
     def do_GET(self):
@@ -49,10 +49,15 @@ class Handler(BaseHTTPRequestHandler):
             if path == '/api/catalogo':
                 with conectar() as c:
                     u = self.usuario(c)
-                return self.responder(200, {'usuario': u, 'acciones': {k: {'campos': v['campos']} for k, v in ACCIONES.items() if u['rol'] in v['roles'] and k not in ['consumir_receta', 'validar_referencia']}})
+                return self.responder(200, {'usuario': u, 'acciones': {k: {'campos': v['campos']} for k, v in ACCIONES.items() if k.startswith('portal_') and u['rol'] in v['roles']}})
             if path.startswith('/features/') and Path(path).name in {p.name for p in Path(__file__).with_name('web').joinpath('features').glob('*.js')}:
                 return self.responder(200, (Path(__file__).with_name('web') / 'features' / Path(path).name).read_bytes(), 'application/javascript')
-            archivos = {'/': 'index.html', '/app.js': 'app.js', '/style.css': 'style.css', '/cocina.css': 'cocina.css', '/compatibilidad.css': 'compatibilidad.css', '/sw.js': 'sw.js', '/transporte.js': 'transporte.js'}
+            if path.startswith('/media/'):
+                nombre = Path(path).name
+                archivo = Path(__file__).with_name('web') / 'media' / (nombre + '.b64')
+                exigir(nombre.endswith(('.jpg', '.webp')) and archivo.is_file(), 'Imagen no encontrada')
+                return self.responder(200, base64.b64decode(archivo.read_bytes()), 'image/webp' if nombre.endswith('.webp') else 'image/jpeg')
+            archivos = {'/': 'index.html', '/app.js': 'app.js', '/style.css': 'style.css', '/cocina.css': 'cocina.css', '/compatibilidad.css': 'compatibilidad.css', '/sw.js': 'sw.js', '/transporte.js': 'transporte.js', '/plataforma.js': 'plataforma.js', '/marca.css': 'marca.css', '/portal.js': 'portal.js', '/ui.js': 'ui.js', '/roles.css': 'roles.css'}
             exigir(path in archivos, 'Ruta inexistente')
             archivo = Path(__file__).with_name('web') / archivos[path]
             tipo = 'text/html' if path == '/' else 'text/css' if path.endswith('.css') else 'application/javascript'
@@ -79,7 +84,7 @@ class Handler(BaseHTTPRequestHandler):
                     exigir(not intento or intento['fallos'] < 5 or time.time() - intento['ultimo'] > 300, 'Espere 5 minutos')
                     pin = d.get('pin', '')
                     exigir(isinstance(pin, str) and 8 <= len(pin) <= 64 and pin.isdigit(), 'PIN inválido')
-                    valido = r is not None and hmac.compare_digest(clave(pin, r['sal']), r['pin'])
+                    valido = r is not None and r['rol'] in ['restaurante', 'cliente'] and hmac.compare_digest(clave(pin, r['sal']), r['pin'])
                     if not valido:
                         fallos = intento['fallos'] + 1 if intento and time.time() - intento['ultimo'] <= 300 else 1
                         c.execute('INSERT OR REPLACE INTO intentos VALUES(?,?,?)', (id, fallos, time.time()))
@@ -97,15 +102,21 @@ class Handler(BaseHTTPRequestHandler):
                 return self.responder(200, {'ok': True}, cookie='sesion=; Max-Age=0; Path=/; HttpOnly; SameSite=Strict')
             exigir(self.path.startswith('/api/accion/'), 'Ruta inválida')
             id = texto(self.headers.get('Idempotency-Key', ''), 100)
+            exigir(self.path.rsplit('/', 1)[-1].startswith('portal_'), 'Operación no disponible en este portal')
             salida = ejecutar(self.path.rsplit('/', 1)[-1], d, u, id)
             self.responder(200, salida)
         except (ValueError, KeyError, TypeError, json.JSONDecodeError, sqlite3.IntegrityError) as e:
-            self.responder(400, {'error': str(e) if isinstance(e, ValueError) else 'Datos inválidos o conflicto de integridad'})
+            mensaje = str(e) if isinstance(e, ValueError) else 'Datos inválidos o conflicto de integridad'
+            codigo = 401 if mensaje == 'Inicie sesión' else 403 if mensaje.startswith(('Acceso denegado', 'Pedido no disponible', 'Operación no disponible', 'No puedes')) else 400
+            self.responder(codigo, {'error': mensaje})
         except Exception:
             self.responder(500, {'error': 'Error interno; operación revertida'})
 
 def main():
+    os.environ.setdefault('PARCHE_ADMIN_PIN', str(secrets.randbelow(10 ** 20)).zfill(20))
     iniciar()
+    from identidad import inicializar_cuentas
+    inicializar_cuentas()
     host = os.environ.get('PARCHE_HOST', '127.0.0.1')
     cert = os.environ.get('PARCHE_TLS_CERT')
     exigir(host in ['127.0.0.1', 'localhost'] or cert, 'Configure TLS antes de exponer el servidor en la red')

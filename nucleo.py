@@ -62,6 +62,10 @@ def iniciar():
             exigir(len(pin) >= 8 and pin.isdigit(), 'Defina PARCHE_ADMIN_PIN con al menos 8 dígitos')
             sal = secrets.token_hex(16)
             c.execute('INSERT INTO usuarios VALUES(?,?,?,?,?,1)', ('admin', 'Administrador', 'administrador', sal, clave(pin, sal)))
+        from simulacion import preparar
+        preparar(c)
+        from identidad import preparar as preparar_roles
+        preparar_roles(c)
 
 def auditar(c, u, tipo, objeto, datos):
     cursor = c.execute('INSERT INTO auditoria(usuario,tipo,objeto,datos,fecha) VALUES(?,?,?,?,?)', (u['id'], tipo, str(objeto), json.dumps(datos, ensure_ascii=False), ahora()))
@@ -118,7 +122,11 @@ def ejecutar(nombre, d, u, identificador):
             if consulta:
                 return a['fn'](c, d, u)
             anterior = c.execute('SELECT resultado,accion,datos FROM operaciones WHERE id=?', (identificador,)).fetchone()
-            serial = json.dumps(d, sort_keys=True, ensure_ascii=False)
+            contexto = {'rol': u['rol'], 'restaurante': None}
+            if nombre.startswith('portal_'):
+                fila = c.execute('SELECT restaurante FROM accesos_restaurante WHERE usuario=?', (u['id'],)).fetchone()
+                contexto['restaurante'] = fila['restaurante'] if fila else None
+            serial = json.dumps({'datos': d, 'contexto': contexto} if nombre.startswith('portal_') else d, sort_keys=True, ensure_ascii=False)
             if anterior:
                 exigir(anterior['accion'] == u['id'] + ':' + nombre and anterior['datos'] == serial, 'Identificador reutilizado')
                 return json.loads(anterior['resultado'])

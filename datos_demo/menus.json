@@ -1,0 +1,2630 @@
+[
+  {
+    "id": "res_01_p01",
+    "restaurante": "res_01",
+    "nombre": "La de la casa · Brasa",
+    "descripcion": "Carne de res a la brasa, cheddar, lechuga, tomate y salsa de la casa.",
+    "precio": 21900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 35,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_01_p02",
+    "restaurante": "res_01",
+    "nombre": "Doble cheddar",
+    "descripcion": "Dos carnes smash, doble queso, pepinillos y mostaza suave.",
+    "precio": 28900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 46,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_01_p03",
+    "restaurante": "res_01",
+    "nombre": "Bacon ahumada",
+    "descripcion": "Res, tocineta crocante, cebolla caramelizada y salsa ahumada.",
+    "precio": 26900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 57,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_01_p04",
+    "restaurante": "res_01",
+    "nombre": "Pollo crispy",
+    "descripcion": "Pollo apanado, coleslaw y mayonesa de ajo.",
+    "precio": 23900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 68,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_01_p05",
+    "restaurante": "res_01",
+    "nombre": "Portobello",
+    "descripcion": "Portobello asado, queso, rúgula y cebolla morada.",
+    "precio": 22900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 79,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_01_p06",
+    "restaurante": "res_01",
+    "nombre": "Combo del barrio",
+    "descripcion": "Hamburguesa clásica y papas rústicas recién hechas.",
+    "precio": 32900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 90,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p01",
+    "restaurante": "res_02",
+    "nombre": "La de la casa · Doble",
+    "descripcion": "Carne de res a la brasa, cheddar, lechuga, tomate y salsa de la casa.",
+    "precio": 22900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 38,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p02",
+    "restaurante": "res_02",
+    "nombre": "Doble cheddar",
+    "descripcion": "Dos carnes smash, doble queso, pepinillos y mostaza suave.",
+    "precio": 29900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 49,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p03",
+    "restaurante": "res_02",
+    "nombre": "Bacon ahumada",
+    "descripcion": "Res, tocineta crocante, cebolla caramelizada y salsa ahumada.",
+    "precio": 27900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 60,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p04",
+    "restaurante": "res_02",
+    "nombre": "Pollo crispy",
+    "descripcion": "Pollo apanado, coleslaw y mayonesa de ajo.",
+    "precio": 24900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 71,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p05",
+    "restaurante": "res_02",
+    "nombre": "Portobello",
+    "descripcion": "Portobello asado, queso, rúgula y cebolla morada.",
+    "precio": 23900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 82,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_02_p06",
+    "restaurante": "res_02",
+    "nombre": "Combo del barrio",
+    "descripcion": "Hamburguesa clásica y papas rústicas recién hechas.",
+    "precio": 33900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 93,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p01",
+    "restaurante": "res_03",
+    "nombre": "La de la casa · Barrio",
+    "descripcion": "Carne de res a la brasa, cheddar, lechuga, tomate y salsa de la casa.",
+    "precio": 23900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 41,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p02",
+    "restaurante": "res_03",
+    "nombre": "Doble cheddar",
+    "descripcion": "Dos carnes smash, doble queso, pepinillos y mostaza suave.",
+    "precio": 30900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 52,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p03",
+    "restaurante": "res_03",
+    "nombre": "Bacon ahumada",
+    "descripcion": "Res, tocineta crocante, cebolla caramelizada y salsa ahumada.",
+    "precio": 28900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 63,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p04",
+    "restaurante": "res_03",
+    "nombre": "Pollo crispy",
+    "descripcion": "Pollo apanado, coleslaw y mayonesa de ajo.",
+    "precio": 25900,
+    "foto": "/media/hamburguesas_1571091718767-18b5b1457add.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 74,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p05",
+    "restaurante": "res_03",
+    "nombre": "Portobello",
+    "descripcion": "Portobello asado, queso, rúgula y cebolla morada.",
+    "precio": 24900,
+    "foto": "/media/hamburguesas_1568901346375-23c9450c58cd.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 85,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_03_p06",
+    "restaurante": "res_03",
+    "nombre": "Combo del barrio",
+    "descripcion": "Hamburguesa clásica y papas rústicas recién hechas.",
+    "precio": 34900,
+    "foto": "/media/hamburguesas_1550547660-d9450f859349.jpg",
+    "categoria": "Hamburguesas",
+    "stock": 96,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p01",
+    "restaurante": "res_04",
+    "nombre": "Margherita · Masa",
+    "descripcion": "Salsa de tomate, mozzarella fresca, albahaca y aceite de oliva.",
+    "precio": 28900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 44,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p02",
+    "restaurante": "res_04",
+    "nombre": "Pepperoni de la casa",
+    "descripcion": "Pepperoni, mozzarella y tomate sobre masa artesanal.",
+    "precio": 34900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 55,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p03",
+    "restaurante": "res_04",
+    "nombre": "Cuatro quesos",
+    "descripcion": "Mozzarella, azul, parmesano y queso crema.",
+    "precio": 36900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 66,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p04",
+    "restaurante": "res_04",
+    "nombre": "Pollo & pesto",
+    "descripcion": "Pollo asado, pesto de albahaca y tomate cherry.",
+    "precio": 35900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 77,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p05",
+    "restaurante": "res_04",
+    "nombre": "Huerta al horno",
+    "descripcion": "Champiñones, pimentón, cebolla morada y aceitunas.",
+    "precio": 31900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 88,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_04_p06",
+    "restaurante": "res_04",
+    "nombre": "Combo para dos",
+    "descripcion": "Dos pizzas personales a elección de la cocina.",
+    "precio": 52900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 99,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p01",
+    "restaurante": "res_05",
+    "nombre": "Margherita · La",
+    "descripcion": "Salsa de tomate, mozzarella fresca, albahaca y aceite de oliva.",
+    "precio": 29900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 47,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p02",
+    "restaurante": "res_05",
+    "nombre": "Pepperoni de la casa",
+    "descripcion": "Pepperoni, mozzarella y tomate sobre masa artesanal.",
+    "precio": 35900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 58,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p03",
+    "restaurante": "res_05",
+    "nombre": "Cuatro quesos",
+    "descripcion": "Mozzarella, azul, parmesano y queso crema.",
+    "precio": 37900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 69,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p04",
+    "restaurante": "res_05",
+    "nombre": "Pollo & pesto",
+    "descripcion": "Pollo asado, pesto de albahaca y tomate cherry.",
+    "precio": 36900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 80,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p05",
+    "restaurante": "res_05",
+    "nombre": "Huerta al horno",
+    "descripcion": "Champiñones, pimentón, cebolla morada y aceitunas.",
+    "precio": 32900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 91,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_05_p06",
+    "restaurante": "res_05",
+    "nombre": "Combo para dos",
+    "descripcion": "Dos pizzas personales a elección de la cocina.",
+    "precio": 53900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 37,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p01",
+    "restaurante": "res_06",
+    "nombre": "Margherita · Pomodoro",
+    "descripcion": "Salsa de tomate, mozzarella fresca, albahaca y aceite de oliva.",
+    "precio": 30900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 50,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p02",
+    "restaurante": "res_06",
+    "nombre": "Pepperoni de la casa",
+    "descripcion": "Pepperoni, mozzarella y tomate sobre masa artesanal.",
+    "precio": 36900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 61,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p03",
+    "restaurante": "res_06",
+    "nombre": "Cuatro quesos",
+    "descripcion": "Mozzarella, azul, parmesano y queso crema.",
+    "precio": 38900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 72,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p04",
+    "restaurante": "res_06",
+    "nombre": "Pollo & pesto",
+    "descripcion": "Pollo asado, pesto de albahaca y tomate cherry.",
+    "precio": 37900,
+    "foto": "/media/pizzas_1593560708920-61dd98c46a4e.jpg",
+    "categoria": "Pizzas",
+    "stock": 83,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p05",
+    "restaurante": "res_06",
+    "nombre": "Huerta al horno",
+    "descripcion": "Champiñones, pimentón, cebolla morada y aceitunas.",
+    "precio": 33900,
+    "foto": "/media/pizzas_1513104890138-7c749659a591.jpg",
+    "categoria": "Pizzas",
+    "stock": 94,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_06_p06",
+    "restaurante": "res_06",
+    "nombre": "Combo para dos",
+    "descripcion": "Dos pizzas personales a elección de la cocina.",
+    "precio": 54900,
+    "foto": "/media/pizzas_1579751626657-72bc17010498.jpg",
+    "categoria": "Pizzas",
+    "stock": 40,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p01",
+    "restaurante": "res_07",
+    "nombre": "Callejero clásico · Perro",
+    "descripcion": "Salchicha, papa crujiente, queso y salsas de la casa.",
+    "precio": 14900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 53,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p02",
+    "restaurante": "res_07",
+    "nombre": "Americano",
+    "descripcion": "Salchicha a la plancha, mostaza, ketchup y cebolla.",
+    "precio": 17900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 64,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p03",
+    "restaurante": "res_07",
+    "nombre": "Queso & bacon",
+    "descripcion": "Salchicha, queso fundido, tocineta y papitas.",
+    "precio": 20900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 75,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p04",
+    "restaurante": "res_07",
+    "nombre": "Criollo",
+    "descripcion": "Salchicha, hogao, queso y maicitos.",
+    "precio": 18900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 86,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p05",
+    "restaurante": "res_07",
+    "nombre": "Picante suave",
+    "descripcion": "Salchicha, jalapeños, cheddar y salsa suave de ají.",
+    "precio": 18900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 97,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_07_p06",
+    "restaurante": "res_07",
+    "nombre": "Dúo del parche",
+    "descripcion": "Dos perros clásicos para compartir.",
+    "precio": 28900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 43,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p01",
+    "restaurante": "res_08",
+    "nombre": "Callejero clásico · Distrito",
+    "descripcion": "Salchicha, papa crujiente, queso y salsas de la casa.",
+    "precio": 15900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 56,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p02",
+    "restaurante": "res_08",
+    "nombre": "Americano",
+    "descripcion": "Salchicha a la plancha, mostaza, ketchup y cebolla.",
+    "precio": 18900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 67,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p03",
+    "restaurante": "res_08",
+    "nombre": "Queso & bacon",
+    "descripcion": "Salchicha, queso fundido, tocineta y papitas.",
+    "precio": 21900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 78,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p04",
+    "restaurante": "res_08",
+    "nombre": "Criollo",
+    "descripcion": "Salchicha, hogao, queso y maicitos.",
+    "precio": 19900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 89,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p05",
+    "restaurante": "res_08",
+    "nombre": "Picante suave",
+    "descripcion": "Salchicha, jalapeños, cheddar y salsa suave de ají.",
+    "precio": 19900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 35,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_08_p06",
+    "restaurante": "res_08",
+    "nombre": "Dúo del parche",
+    "descripcion": "Dos perros clásicos para compartir.",
+    "precio": 29900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 46,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p01",
+    "restaurante": "res_09",
+    "nombre": "Callejero clásico · Pan",
+    "descripcion": "Salchicha, papa crujiente, queso y salsas de la casa.",
+    "precio": 16900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 59,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p02",
+    "restaurante": "res_09",
+    "nombre": "Americano",
+    "descripcion": "Salchicha a la plancha, mostaza, ketchup y cebolla.",
+    "precio": 19900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 70,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p03",
+    "restaurante": "res_09",
+    "nombre": "Queso & bacon",
+    "descripcion": "Salchicha, queso fundido, tocineta y papitas.",
+    "precio": 22900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 81,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p04",
+    "restaurante": "res_09",
+    "nombre": "Criollo",
+    "descripcion": "Salchicha, hogao, queso y maicitos.",
+    "precio": 20900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 92,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p05",
+    "restaurante": "res_09",
+    "nombre": "Picante suave",
+    "descripcion": "Salchicha, jalapeños, cheddar y salsa suave de ají.",
+    "precio": 20900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 38,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_09_p06",
+    "restaurante": "res_09",
+    "nombre": "Dúo del parche",
+    "descripcion": "Dos perros clásicos para compartir.",
+    "precio": 30900,
+    "foto": "/media/perros_1612392062631-94dd858cba88.jpg",
+    "categoria": "Perros calientes",
+    "stock": 49,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p01",
+    "restaurante": "res_10",
+    "nombre": "Alitas BBQ x6 · Ala",
+    "descripcion": "Seis alitas bañadas en BBQ ahumada y ajonjolí.",
+    "precio": 22900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 62,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p02",
+    "restaurante": "res_10",
+    "nombre": "Alitas buffalo x6",
+    "descripcion": "Seis alitas con salsa buffalo de picante medio.",
+    "precio": 23900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 73,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p03",
+    "restaurante": "res_10",
+    "nombre": "Miel & mostaza x6",
+    "descripcion": "Seis alitas con miel, mostaza y toque de limón.",
+    "precio": 23900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 84,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p04",
+    "restaurante": "res_10",
+    "nombre": "Crispy tenders",
+    "descripcion": "Tiras de pollo apanado, papas y dip de la casa.",
+    "precio": 21900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 95,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p05",
+    "restaurante": "res_10",
+    "nombre": "Alitas al ajo x8",
+    "descripcion": "Ocho alitas con mantequilla de ajo y hierbas.",
+    "precio": 29900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 41,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_10_p06",
+    "restaurante": "res_10",
+    "nombre": "Combo para compartir",
+    "descripcion": "Doce alitas, papas rústicas y dos dips.",
+    "precio": 45900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 52,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p01",
+    "restaurante": "res_11",
+    "nombre": "Alitas BBQ x6 · Crispy",
+    "descripcion": "Seis alitas bañadas en BBQ ahumada y ajonjolí.",
+    "precio": 23900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 65,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p02",
+    "restaurante": "res_11",
+    "nombre": "Alitas buffalo x6",
+    "descripcion": "Seis alitas con salsa buffalo de picante medio.",
+    "precio": 24900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 76,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p03",
+    "restaurante": "res_11",
+    "nombre": "Miel & mostaza x6",
+    "descripcion": "Seis alitas con miel, mostaza y toque de limón.",
+    "precio": 24900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 87,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p04",
+    "restaurante": "res_11",
+    "nombre": "Crispy tenders",
+    "descripcion": "Tiras de pollo apanado, papas y dip de la casa.",
+    "precio": 22900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 98,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p05",
+    "restaurante": "res_11",
+    "nombre": "Alitas al ajo x8",
+    "descripcion": "Ocho alitas con mantequilla de ajo y hierbas.",
+    "precio": 30900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 44,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_11_p06",
+    "restaurante": "res_11",
+    "nombre": "Combo para compartir",
+    "descripcion": "Doce alitas, papas rústicas y dos dips.",
+    "precio": 46900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 55,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p01",
+    "restaurante": "res_12",
+    "nombre": "Alitas BBQ x6 · Fuego",
+    "descripcion": "Seis alitas bañadas en BBQ ahumada y ajonjolí.",
+    "precio": 24900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 68,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p02",
+    "restaurante": "res_12",
+    "nombre": "Alitas buffalo x6",
+    "descripcion": "Seis alitas con salsa buffalo de picante medio.",
+    "precio": 25900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 79,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p03",
+    "restaurante": "res_12",
+    "nombre": "Miel & mostaza x6",
+    "descripcion": "Seis alitas con miel, mostaza y toque de limón.",
+    "precio": 25900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 90,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p04",
+    "restaurante": "res_12",
+    "nombre": "Crispy tenders",
+    "descripcion": "Tiras de pollo apanado, papas y dip de la casa.",
+    "precio": 23900,
+    "foto": "/media/alitas_1562967914-608f82629710.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 36,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p05",
+    "restaurante": "res_12",
+    "nombre": "Alitas al ajo x8",
+    "descripcion": "Ocho alitas con mantequilla de ajo y hierbas.",
+    "precio": 31900,
+    "foto": "/media/alitas_1567620832903-9fc6debc209f.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 47,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_12_p06",
+    "restaurante": "res_12",
+    "nombre": "Combo para compartir",
+    "descripcion": "Doce alitas, papas rústicas y dos dips.",
+    "precio": 47900,
+    "foto": "/media/alitas_1626082927389-6cd097cdc6ec.jpg",
+    "categoria": "Pollo y alitas",
+    "stock": 58,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p01",
+    "restaurante": "res_13",
+    "nombre": "Tacos de res x3 · Maíz",
+    "descripcion": "Tortilla de maíz, res, cebolla, cilantro y limón.",
+    "precio": 21900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 71,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p02",
+    "restaurante": "res_13",
+    "nombre": "Pollo al pastor x3",
+    "descripcion": "Pollo especiado, piña asada y salsa de la casa.",
+    "precio": 20900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 82,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p03",
+    "restaurante": "res_13",
+    "nombre": "Cochinita x3",
+    "descripcion": "Cerdo cocido lento con achiote y cebolla encurtida.",
+    "precio": 23900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 93,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p04",
+    "restaurante": "res_13",
+    "nombre": "Hongos y maíz x3",
+    "descripcion": "Champiñones salteados, maíz y guacamole.",
+    "precio": 19900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 39,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p05",
+    "restaurante": "res_13",
+    "nombre": "Burrito del barrio",
+    "descripcion": "Tortilla de trigo, arroz, frijoles, res y vegetales.",
+    "precio": 25900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 50,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_13_p06",
+    "restaurante": "res_13",
+    "nombre": "Nachos para dos",
+    "descripcion": "Totopos, queso, pico de gallo y guacamole.",
+    "precio": 28900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 61,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p01",
+    "restaurante": "res_14",
+    "nombre": "Tacos de res x3 · Taco",
+    "descripcion": "Tortilla de maíz, res, cebolla, cilantro y limón.",
+    "precio": 22900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 74,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p02",
+    "restaurante": "res_14",
+    "nombre": "Pollo al pastor x3",
+    "descripcion": "Pollo especiado, piña asada y salsa de la casa.",
+    "precio": 21900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 85,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p03",
+    "restaurante": "res_14",
+    "nombre": "Cochinita x3",
+    "descripcion": "Cerdo cocido lento con achiote y cebolla encurtida.",
+    "precio": 24900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 96,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p04",
+    "restaurante": "res_14",
+    "nombre": "Hongos y maíz x3",
+    "descripcion": "Champiñones salteados, maíz y guacamole.",
+    "precio": 20900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 42,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p05",
+    "restaurante": "res_14",
+    "nombre": "Burrito del barrio",
+    "descripcion": "Tortilla de trigo, arroz, frijoles, res y vegetales.",
+    "precio": 26900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 53,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_14_p06",
+    "restaurante": "res_14",
+    "nombre": "Nachos para dos",
+    "descripcion": "Totopos, queso, pico de gallo y guacamole.",
+    "precio": 29900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 64,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p01",
+    "restaurante": "res_15",
+    "nombre": "Tacos de res x3 · La",
+    "descripcion": "Tortilla de maíz, res, cebolla, cilantro y limón.",
+    "precio": 23900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 77,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p02",
+    "restaurante": "res_15",
+    "nombre": "Pollo al pastor x3",
+    "descripcion": "Pollo especiado, piña asada y salsa de la casa.",
+    "precio": 22900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 88,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p03",
+    "restaurante": "res_15",
+    "nombre": "Cochinita x3",
+    "descripcion": "Cerdo cocido lento con achiote y cebolla encurtida.",
+    "precio": 25900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 99,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p04",
+    "restaurante": "res_15",
+    "nombre": "Hongos y maíz x3",
+    "descripcion": "Champiñones salteados, maíz y guacamole.",
+    "precio": 21900,
+    "foto": "/media/tacos_1613514785940-daed07799d9b.jpg",
+    "categoria": "Tacos",
+    "stock": 45,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p05",
+    "restaurante": "res_15",
+    "nombre": "Burrito del barrio",
+    "descripcion": "Tortilla de trigo, arroz, frijoles, res y vegetales.",
+    "precio": 27900,
+    "foto": "/media/tacos_1551504734-5ee1c4a1479b.jpg",
+    "categoria": "Tacos",
+    "stock": 56,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_15_p06",
+    "restaurante": "res_15",
+    "nombre": "Nachos para dos",
+    "descripcion": "Totopos, queso, pico de gallo y guacamole.",
+    "precio": 30900,
+    "foto": "/media/tacos_1565299585323-38d6b0865b47.jpg",
+    "categoria": "Tacos",
+    "stock": 67,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p01",
+    "restaurante": "res_16",
+    "nombre": "Salchipapa clásica · Papa",
+    "descripcion": "Papas, salchicha a la plancha y salsa rosada.",
+    "precio": 16900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 80,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p02",
+    "restaurante": "res_16",
+    "nombre": "La gratinada",
+    "descripcion": "Papas, salchicha y mezcla de quesos gratinados.",
+    "precio": 20900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 91,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p03",
+    "restaurante": "res_16",
+    "nombre": "Pollo desmechado",
+    "descripcion": "Papas, pollo desmechado y salsa de ajo.",
+    "precio": 22900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 37,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p04",
+    "restaurante": "res_16",
+    "nombre": "Bacon cheddar",
+    "descripcion": "Papas, cheddar caliente, tocineta y cebollín.",
+    "precio": 22900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 48,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p05",
+    "restaurante": "res_16",
+    "nombre": "Maicitos y queso",
+    "descripcion": "Papas, maíz dulce, queso y salsa de cilantro.",
+    "precio": 19900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 59,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_16_p06",
+    "restaurante": "res_16",
+    "nombre": "Bandeja del parche",
+    "descripcion": "Papas, salchicha, res, pollo y tres salsas.",
+    "precio": 34900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 70,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p01",
+    "restaurante": "res_17",
+    "nombre": "Salchipapa clásica · La",
+    "descripcion": "Papas, salchicha a la plancha y salsa rosada.",
+    "precio": 17900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 83,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p02",
+    "restaurante": "res_17",
+    "nombre": "La gratinada",
+    "descripcion": "Papas, salchicha y mezcla de quesos gratinados.",
+    "precio": 21900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 94,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p03",
+    "restaurante": "res_17",
+    "nombre": "Pollo desmechado",
+    "descripcion": "Papas, pollo desmechado y salsa de ajo.",
+    "precio": 23900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 40,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p04",
+    "restaurante": "res_17",
+    "nombre": "Bacon cheddar",
+    "descripcion": "Papas, cheddar caliente, tocineta y cebollín.",
+    "precio": 23900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 51,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p05",
+    "restaurante": "res_17",
+    "nombre": "Maicitos y queso",
+    "descripcion": "Papas, maíz dulce, queso y salsa de cilantro.",
+    "precio": 20900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 62,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_17_p06",
+    "restaurante": "res_17",
+    "nombre": "Bandeja del parche",
+    "descripcion": "Papas, salchicha, res, pollo y tres salsas.",
+    "precio": 35900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 73,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p01",
+    "restaurante": "res_18",
+    "nombre": "Salchipapa clásica · Crocante",
+    "descripcion": "Papas, salchicha a la plancha y salsa rosada.",
+    "precio": 18900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 86,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p02",
+    "restaurante": "res_18",
+    "nombre": "La gratinada",
+    "descripcion": "Papas, salchicha y mezcla de quesos gratinados.",
+    "precio": 22900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 97,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p03",
+    "restaurante": "res_18",
+    "nombre": "Pollo desmechado",
+    "descripcion": "Papas, pollo desmechado y salsa de ajo.",
+    "precio": 24900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 43,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p04",
+    "restaurante": "res_18",
+    "nombre": "Bacon cheddar",
+    "descripcion": "Papas, cheddar caliente, tocineta y cebollín.",
+    "precio": 24900,
+    "foto": "/media/papas_1518013431117-eb1465fa5752.jpg",
+    "categoria": "Salchipapas",
+    "stock": 54,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p05",
+    "restaurante": "res_18",
+    "nombre": "Maicitos y queso",
+    "descripcion": "Papas, maíz dulce, queso y salsa de cilantro.",
+    "precio": 21900,
+    "foto": "/media/papas_1573080496219-bb080dd4f877.jpg",
+    "categoria": "Salchipapas",
+    "stock": 65,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_18_p06",
+    "restaurante": "res_18",
+    "nombre": "Bandeja del parche",
+    "descripcion": "Papas, salchicha, res, pollo y tres salsas.",
+    "precio": 36900,
+    "foto": "/media/papas_1630384060421-cb20d0e0649d.jpg",
+    "categoria": "Salchipapas",
+    "stock": 76,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_19_p01",
+    "restaurante": "res_19",
+    "nombre": "California x8 · Nori",
+    "descripcion": "Arroz, palmito de mar, aguacate, pepino y ajonjolí.",
+    "precio": 24900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 89,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_19_p02",
+    "restaurante": "res_19",
+    "nombre": "Salmón fresco x8",
+    "descripcion": "Salmón, aguacate y queso crema en ocho bocados.",
+    "precio": 32900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 35,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_19_p03",
+    "restaurante": "res_19",
+    "nombre": "Crispy roll x8",
+    "descripcion": "Rollo crocante de pollo, aguacate y salsa de la casa.",
+    "precio": 28900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 46,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_19_p04",
+    "restaurante": "res_19",
+    "nombre": "Camarón tempura x8",
+    "descripcion": "Camarón tempura, aguacate y salsa de anguila.",
+    "precio": 31900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 57,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_19_p05",
+    "restaurante": "res_19",
+    "nombre": "Veggie roll x8",
+    "descripcion": "Pepino, aguacate, zanahoria y mango fresco.",
+    "precio": 22900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 68,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_19_p06",
+    "restaurante": "res_19",
+    "nombre": "Tabla para dos x20",
+    "descripcion": "Veinte bocados con selección de tres rollos.",
+    "precio": 58900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 79,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p01",
+    "restaurante": "res_20",
+    "nombre": "California x8 · Maki",
+    "descripcion": "Arroz, palmito de mar, aguacate, pepino y ajonjolí.",
+    "precio": 25900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 92,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p02",
+    "restaurante": "res_20",
+    "nombre": "Salmón fresco x8",
+    "descripcion": "Salmón, aguacate y queso crema en ocho bocados.",
+    "precio": 33900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 38,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p03",
+    "restaurante": "res_20",
+    "nombre": "Crispy roll x8",
+    "descripcion": "Rollo crocante de pollo, aguacate y salsa de la casa.",
+    "precio": 29900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 49,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p04",
+    "restaurante": "res_20",
+    "nombre": "Camarón tempura x8",
+    "descripcion": "Camarón tempura, aguacate y salsa de anguila.",
+    "precio": 32900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 60,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p05",
+    "restaurante": "res_20",
+    "nombre": "Veggie roll x8",
+    "descripcion": "Pepino, aguacate, zanahoria y mango fresco.",
+    "precio": 23900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 71,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_20_p06",
+    "restaurante": "res_20",
+    "nombre": "Tabla para dos x20",
+    "descripcion": "Veinte bocados con selección de tres rollos.",
+    "precio": 59900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 82,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p01",
+    "restaurante": "res_21",
+    "nombre": "California x8 · Umami",
+    "descripcion": "Arroz, palmito de mar, aguacate, pepino y ajonjolí.",
+    "precio": 26900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 95,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p02",
+    "restaurante": "res_21",
+    "nombre": "Salmón fresco x8",
+    "descripcion": "Salmón, aguacate y queso crema en ocho bocados.",
+    "precio": 34900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 41,
+    "destacado": true,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p03",
+    "restaurante": "res_21",
+    "nombre": "Crispy roll x8",
+    "descripcion": "Rollo crocante de pollo, aguacate y salsa de la casa.",
+    "precio": 30900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 52,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p04",
+    "restaurante": "res_21",
+    "nombre": "Camarón tempura x8",
+    "descripcion": "Camarón tempura, aguacate y salsa de anguila.",
+    "precio": 33900,
+    "foto": "/media/sushi_1617196034796-73dfa7b1fd56.jpg",
+    "categoria": "Sushi",
+    "stock": 63,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p05",
+    "restaurante": "res_21",
+    "nombre": "Veggie roll x8",
+    "descripcion": "Pepino, aguacate, zanahoria y mango fresco.",
+    "precio": 24900,
+    "foto": "/media/sushi_1579871494447-9811cf80d66c.jpg",
+    "categoria": "Sushi",
+    "stock": 74,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_21_p06",
+    "restaurante": "res_21",
+    "nombre": "Tabla para dos x20",
+    "descripcion": "Veinte bocados con selección de tres rollos.",
+    "precio": 60900,
+    "foto": "/media/sushi_1553621042-f6e147245754.jpg",
+    "categoria": "Sushi",
+    "stock": 85,
+    "destacado": false,
+    "alergenos": [
+      "soya"
+    ]
+  },
+  {
+    "id": "res_22_p01",
+    "restaurante": "res_22",
+    "nombre": "Pollo del patio · Entre",
+    "descripcion": "Pollo asado, lechuga, tomate y mayonesa de hierbas.",
+    "precio": 19900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 98,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_22_p02",
+    "restaurante": "res_22",
+    "nombre": "Jamón & queso",
+    "descripcion": "Jamón, mozzarella, tomate y mostaza dulce.",
+    "precio": 16900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 44,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_22_p03",
+    "restaurante": "res_22",
+    "nombre": "Roast beef",
+    "descripcion": "Res asada, rúgula, pepinillos y cebolla.",
+    "precio": 24900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 55,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_22_p04",
+    "restaurante": "res_22",
+    "nombre": "Vegetales asados",
+    "descripcion": "Berenjena, pimentón, calabacín y pesto.",
+    "precio": 18900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 66,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_22_p05",
+    "restaurante": "res_22",
+    "nombre": "Atún mediterráneo",
+    "descripcion": "Atún, aceitunas, tomate y aceite de oliva.",
+    "precio": 20900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 77,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_22_p06",
+    "restaurante": "res_22",
+    "nombre": "Club de la casa",
+    "descripcion": "Pollo, jamón, queso, tocineta y pan tostado.",
+    "precio": 25900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 88,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p01",
+    "restaurante": "res_23",
+    "nombre": "Pollo del patio · Baguette",
+    "descripcion": "Pollo asado, lechuga, tomate y mayonesa de hierbas.",
+    "precio": 20900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 36,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p02",
+    "restaurante": "res_23",
+    "nombre": "Jamón & queso",
+    "descripcion": "Jamón, mozzarella, tomate y mostaza dulce.",
+    "precio": 17900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 47,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p03",
+    "restaurante": "res_23",
+    "nombre": "Roast beef",
+    "descripcion": "Res asada, rúgula, pepinillos y cebolla.",
+    "precio": 25900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 58,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p04",
+    "restaurante": "res_23",
+    "nombre": "Vegetales asados",
+    "descripcion": "Berenjena, pimentón, calabacín y pesto.",
+    "precio": 19900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 69,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p05",
+    "restaurante": "res_23",
+    "nombre": "Atún mediterráneo",
+    "descripcion": "Atún, aceitunas, tomate y aceite de oliva.",
+    "precio": 21900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 80,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_23_p06",
+    "restaurante": "res_23",
+    "nombre": "Club de la casa",
+    "descripcion": "Pollo, jamón, queso, tocineta y pan tostado.",
+    "precio": 26900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 91,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p01",
+    "restaurante": "res_24",
+    "nombre": "Pollo del patio · La",
+    "descripcion": "Pollo asado, lechuga, tomate y mayonesa de hierbas.",
+    "precio": 21900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 39,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p02",
+    "restaurante": "res_24",
+    "nombre": "Jamón & queso",
+    "descripcion": "Jamón, mozzarella, tomate y mostaza dulce.",
+    "precio": 18900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 50,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p03",
+    "restaurante": "res_24",
+    "nombre": "Roast beef",
+    "descripcion": "Res asada, rúgula, pepinillos y cebolla.",
+    "precio": 26900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 61,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p04",
+    "restaurante": "res_24",
+    "nombre": "Vegetales asados",
+    "descripcion": "Berenjena, pimentón, calabacín y pesto.",
+    "precio": 20900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 72,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p05",
+    "restaurante": "res_24",
+    "nombre": "Atún mediterráneo",
+    "descripcion": "Atún, aceitunas, tomate y aceite de oliva.",
+    "precio": 22900,
+    "foto": "/media/sandwiches_1528735602780-2552fd46c7af.jpg",
+    "categoria": "Sándwiches",
+    "stock": 83,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_24_p06",
+    "restaurante": "res_24",
+    "nombre": "Club de la casa",
+    "descripcion": "Pollo, jamón, queso, tocineta y pan tostado.",
+    "precio": 27900,
+    "foto": "/media/sandwiches_1539252554453-80ab65ce3586.jpg",
+    "categoria": "Sándwiches",
+    "stock": 94,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_25_p01",
+    "restaurante": "res_25",
+    "nombre": "Pollo & aguacate · Verde",
+    "descripcion": "Arroz, pollo, aguacate, tomate, maíz y salsa de yogur.",
+    "precio": 24900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 42,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_25_p02",
+    "restaurante": "res_25",
+    "nombre": "Mediterráneo",
+    "descripcion": "Arroz, garbanzos, pepino, tomate y queso fresco.",
+    "precio": 23900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 53,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_25_p03",
+    "restaurante": "res_25",
+    "nombre": "Teriyaki",
+    "descripcion": "Arroz, pollo teriyaki, brócoli, zanahoria y ajonjolí.",
+    "precio": 26900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 64,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_25_p04",
+    "restaurante": "res_25",
+    "nombre": "Veggie fresco",
+    "descripcion": "Quinoa, zanahoria, pepino, mango y hojas verdes.",
+    "precio": 21900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 75,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_25_p05",
+    "restaurante": "res_25",
+    "nombre": "Criollo",
+    "descripcion": "Arroz, frijoles, res desmechada, maíz y aguacate.",
+    "precio": 24900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 86,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_25_p06",
+    "restaurante": "res_25",
+    "nombre": "Quinoa de la huerta",
+    "descripcion": "Quinoa, vegetales asados, garbanzos y vinagreta.",
+    "precio": 25900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 97,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p01",
+    "restaurante": "res_26",
+    "nombre": "Pollo & aguacate · Bowl",
+    "descripcion": "Arroz, pollo, aguacate, tomate, maíz y salsa de yogur.",
+    "precio": 25900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 45,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p02",
+    "restaurante": "res_26",
+    "nombre": "Mediterráneo",
+    "descripcion": "Arroz, garbanzos, pepino, tomate y queso fresco.",
+    "precio": 24900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 56,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p03",
+    "restaurante": "res_26",
+    "nombre": "Teriyaki",
+    "descripcion": "Arroz, pollo teriyaki, brócoli, zanahoria y ajonjolí.",
+    "precio": 27900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 67,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p04",
+    "restaurante": "res_26",
+    "nombre": "Veggie fresco",
+    "descripcion": "Quinoa, zanahoria, pepino, mango y hojas verdes.",
+    "precio": 22900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 78,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p05",
+    "restaurante": "res_26",
+    "nombre": "Criollo",
+    "descripcion": "Arroz, frijoles, res desmechada, maíz y aguacate.",
+    "precio": 25900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 89,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_26_p06",
+    "restaurante": "res_26",
+    "nombre": "Quinoa de la huerta",
+    "descripcion": "Quinoa, vegetales asados, garbanzos y vinagreta.",
+    "precio": 26900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 35,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p01",
+    "restaurante": "res_27",
+    "nombre": "Pollo & aguacate · Raíz",
+    "descripcion": "Arroz, pollo, aguacate, tomate, maíz y salsa de yogur.",
+    "precio": 26900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 48,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p02",
+    "restaurante": "res_27",
+    "nombre": "Mediterráneo",
+    "descripcion": "Arroz, garbanzos, pepino, tomate y queso fresco.",
+    "precio": 25900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 59,
+    "destacado": true,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p03",
+    "restaurante": "res_27",
+    "nombre": "Teriyaki",
+    "descripcion": "Arroz, pollo teriyaki, brócoli, zanahoria y ajonjolí.",
+    "precio": 28900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 70,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p04",
+    "restaurante": "res_27",
+    "nombre": "Veggie fresco",
+    "descripcion": "Quinoa, zanahoria, pepino, mango y hojas verdes.",
+    "precio": 23900,
+    "foto": "/media/bowls_1540420773420-3366772f4999.jpg",
+    "categoria": "Bowls",
+    "stock": 81,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p05",
+    "restaurante": "res_27",
+    "nombre": "Criollo",
+    "descripcion": "Arroz, frijoles, res desmechada, maíz y aguacate.",
+    "precio": 26900,
+    "foto": "/media/bowls_1512621776951-a57141f2eefd.jpg",
+    "categoria": "Bowls",
+    "stock": 92,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_27_p06",
+    "restaurante": "res_27",
+    "nombre": "Quinoa de la huerta",
+    "descripcion": "Quinoa, vegetales asados, garbanzos y vinagreta.",
+    "precio": 27900,
+    "foto": "/media/bowls_1511690743698-d9d85f2fbf38.jpg",
+    "categoria": "Bowls",
+    "stock": 38,
+    "destacado": false,
+    "alergenos": []
+  },
+  {
+    "id": "res_28_p01",
+    "restaurante": "res_28",
+    "nombre": "Reina de pollo · Maíz",
+    "descripcion": "Arepa de maíz, pollo desmechado y mayonesa suave.",
+    "precio": 16900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 51,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_28_p02",
+    "restaurante": "res_28",
+    "nombre": "Carne desmechada",
+    "descripcion": "Arepa rellena de res cocida lenta con hogao.",
+    "precio": 18900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 62,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_28_p03",
+    "restaurante": "res_28",
+    "nombre": "Queso de la casa",
+    "descripcion": "Arepa de maíz con queso fundido y mantequilla.",
+    "precio": 12900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 73,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_28_p04",
+    "restaurante": "res_28",
+    "nombre": "Mixta criolla",
+    "descripcion": "Res, pollo, queso y salsa de ajo.",
+    "precio": 21900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 84,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_28_p05",
+    "restaurante": "res_28",
+    "nombre": "Pollo & aguacate",
+    "descripcion": "Pollo asado, aguacate y cilantro.",
+    "precio": 18900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 95,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_28_p06",
+    "restaurante": "res_28",
+    "nombre": "La de vegetales",
+    "descripcion": "Champiñones, pimentón, maíz y queso.",
+    "precio": 15900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 41,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p01",
+    "restaurante": "res_29",
+    "nombre": "Reina de pollo · La",
+    "descripcion": "Arepa de maíz, pollo desmechado y mayonesa suave.",
+    "precio": 17900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 54,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p02",
+    "restaurante": "res_29",
+    "nombre": "Carne desmechada",
+    "descripcion": "Arepa rellena de res cocida lenta con hogao.",
+    "precio": 19900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 65,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p03",
+    "restaurante": "res_29",
+    "nombre": "Queso de la casa",
+    "descripcion": "Arepa de maíz con queso fundido y mantequilla.",
+    "precio": 13900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 76,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p04",
+    "restaurante": "res_29",
+    "nombre": "Mixta criolla",
+    "descripcion": "Res, pollo, queso y salsa de ajo.",
+    "precio": 22900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 87,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p05",
+    "restaurante": "res_29",
+    "nombre": "Pollo & aguacate",
+    "descripcion": "Pollo asado, aguacate y cilantro.",
+    "precio": 19900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 98,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_29_p06",
+    "restaurante": "res_29",
+    "nombre": "La de vegetales",
+    "descripcion": "Champiñones, pimentón, maíz y queso.",
+    "precio": 16900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 44,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p01",
+    "restaurante": "res_30",
+    "nombre": "Reina de pollo · Arepa",
+    "descripcion": "Arepa de maíz, pollo desmechado y mayonesa suave.",
+    "precio": 18900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 57,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p02",
+    "restaurante": "res_30",
+    "nombre": "Carne desmechada",
+    "descripcion": "Arepa rellena de res cocida lenta con hogao.",
+    "precio": 20900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 68,
+    "destacado": true,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p03",
+    "restaurante": "res_30",
+    "nombre": "Queso de la casa",
+    "descripcion": "Arepa de maíz con queso fundido y mantequilla.",
+    "precio": 14900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 79,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p04",
+    "restaurante": "res_30",
+    "nombre": "Mixta criolla",
+    "descripcion": "Res, pollo, queso y salsa de ajo.",
+    "precio": 23900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 90,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p05",
+    "restaurante": "res_30",
+    "nombre": "Pollo & aguacate",
+    "descripcion": "Pollo asado, aguacate y cilantro.",
+    "precio": 20900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 36,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  },
+  {
+    "id": "res_30_p06",
+    "restaurante": "res_30",
+    "nombre": "La de vegetales",
+    "descripcion": "Champiñones, pimentón, maíz y queso.",
+    "precio": 17900,
+    "foto": "/media/arepas_1745376211713-04fa3ffa3722.jpg",
+    "categoria": "Arepas",
+    "stock": 47,
+    "destacado": false,
+    "alergenos": [
+      "gluten",
+      "lácteos"
+    ]
+  }
+]
