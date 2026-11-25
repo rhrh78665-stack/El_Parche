@@ -1,0 +1,6 @@
+datos/
+respaldos/
+__pycache__/
+*.pyc
+*.pem
+.env

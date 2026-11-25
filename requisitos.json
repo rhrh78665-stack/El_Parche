@@ -1,0 +1,212 @@
+[
+  {
+    "requisito": "RF-01",
+    "rama": "rf1_registrar_pedido",
+    "archivo": "EP_RF01_registrar_pedido.patch",
+    "pantalla": "pedidos",
+    "operacion": "Nuevo pedido"
+  },
+  {
+    "requisito": "RF-02",
+    "rama": "rf2_pedido_mesa",
+    "archivo": "EP_RF02_pedido_mesa.patch",
+    "pantalla": "pedidos",
+    "operacion": "Pedido de mesa"
+  },
+  {
+    "requisito": "RF-03",
+    "rama": "rf3_modificar_linea",
+    "archivo": "EP_RF03_modificar_linea.patch",
+    "pantalla": "pedidos",
+    "operacion": "Personalizar producto"
+  },
+  {
+    "requisito": "RF-04",
+    "rama": "rf4_cola_pedidos",
+    "archivo": "EP_RF04_cola_pedidos.patch",
+    "pantalla": "pedidos",
+    "operacion": "Pedidos en curso"
+  },
+  {
+    "requisito": "RF-05",
+    "rama": "rf5_pedidos_demorados",
+    "archivo": "EP_RF05_pedidos_demorados.patch",
+    "pantalla": "pedidos",
+    "operacion": "Revisar demoras"
+  },
+  {
+    "requisito": "RF-06",
+    "rama": "rf6_cancelar_pedido",
+    "archivo": "EP_RF06_cancelar_pedido.patch",
+    "pantalla": "pedidos",
+    "operacion": "Cancelar pedido"
+  },
+  {
+    "requisito": "RF-07",
+    "rama": "rf7_comandas",
+    "archivo": "EP_RF07_comandas.patch",
+    "pantalla": "cocina",
+    "operacion": "Comandas de cocina"
+  },
+  {
+    "requisito": "RF-08",
+    "rama": "rf8_estado_cocina",
+    "archivo": "EP_RF08_estado_cocina.patch",
+    "pantalla": "cocina",
+    "operacion": "Actualizar preparación"
+  },
+  {
+    "requisito": "RF-09",
+    "rama": "rf9_registrar_rehecho",
+    "archivo": "EP_RF09_registrar_rehecho.patch",
+    "pantalla": "cocina",
+    "operacion": "Registrar plato rehecho"
+  },
+  {
+    "requisito": "RF-10",
+    "rama": "rf10_guardar_producto",
+    "archivo": "EP_RF10_guardar_producto.patch",
+    "pantalla": "menu",
+    "operacion": "Crear o editar producto"
+  },
+  {
+    "requisito": "RF-11",
+    "rama": "rf11_buscar_cliente",
+    "archivo": "EP_RF11_buscar_cliente.patch",
+    "pantalla": "domicilios",
+    "operacion": "Buscar cliente"
+  },
+  {
+    "requisito": "RF-12",
+    "rama": "rf12_despachar_domicilio",
+    "archivo": "EP_RF12_despachar_domicilio.patch",
+    "pantalla": "domicilios",
+    "operacion": "Asignar domicilio"
+  },
+  {
+    "requisito": "RF-13",
+    "rama": "rf13_entregar_pedido",
+    "archivo": "EP_RF13_entregar_pedido.patch",
+    "pantalla": "domicilios",
+    "operacion": "Confirmar entrega"
+  },
+  {
+    "requisito": "RF-14",
+    "rama": "rf14_abrir_caja",
+    "archivo": "EP_RF14_abrir_caja.patch",
+    "pantalla": "caja",
+    "operacion": "Abrir turno de caja"
+  },
+  {
+    "requisito": "RF-15",
+    "rama": "rf15_cobrar_pedido",
+    "archivo": "EP_RF15_cobrar_pedido.patch",
+    "pantalla": "caja",
+    "operacion": "Cobrar pedido"
+  },
+  {
+    "requisito": "RF-16",
+    "rama": "rf16_validar_referencia",
+    "archivo": "EP_RF16_validar_referencia.patch",
+    "pantalla": "caja",
+    "operacion": "Referencias de transferencia"
+  },
+  {
+    "requisito": "RF-17",
+    "rama": "rf17_cuadre_domiciliario",
+    "archivo": "EP_RF17_cuadre_domiciliario.patch",
+    "pantalla": "caja",
+    "operacion": "Conciliar domiciliario"
+  },
+  {
+    "requisito": "RF-18",
+    "rama": "rf18_cerrar_caja",
+    "archivo": "EP_RF18_cerrar_caja.patch",
+    "pantalla": "caja",
+    "operacion": "Cerrar turno de caja"
+  },
+  {
+    "requisito": "RF-19",
+    "rama": "rf19_guardar_insumo",
+    "archivo": "EP_RF19_guardar_insumo.patch",
+    "pantalla": "inventario",
+    "operacion": "Crear o editar insumo"
+  },
+  {
+    "requisito": "RF-20",
+    "rama": "rf20_guardar_receta",
+    "archivo": "EP_RF20_guardar_receta.patch",
+    "pantalla": "menu",
+    "operacion": "Definir receta"
+  },
+  {
+    "requisito": "RF-21",
+    "rama": "rf21_registrar_compra",
+    "archivo": "EP_RF21_registrar_compra.patch",
+    "pantalla": "inventario",
+    "operacion": "Registrar compra"
+  },
+  {
+    "requisito": "RF-22",
+    "rama": "rf22_consumir_receta",
+    "archivo": "EP_RF22_consumir_receta.patch",
+    "pantalla": "inventario",
+    "operacion": "Consumo de ingredientes"
+  },
+  {
+    "requisito": "RF-23",
+    "rama": "rf23_consultar_existencias",
+    "archivo": "EP_RF23_consultar_existencias.patch",
+    "pantalla": "inventario",
+    "operacion": "Existencias actuales"
+  },
+  {
+    "requisito": "RF-24",
+    "rama": "rf24_alertas_stock",
+    "archivo": "EP_RF24_alertas_stock.patch",
+    "pantalla": "inventario",
+    "operacion": "Insumos por reponer"
+  },
+  {
+    "requisito": "RF-25",
+    "rama": "rf25_ajustar_inventario",
+    "archivo": "EP_RF25_ajustar_inventario.patch",
+    "pantalla": "inventario",
+    "operacion": "Registrar conteo físico"
+  },
+  {
+    "requisito": "RF-26",
+    "rama": "rf26_menu_disponible",
+    "archivo": "EP_RF26_menu_disponible.patch",
+    "pantalla": "menu",
+    "operacion": "Menú del restaurante"
+  },
+  {
+    "requisito": "RF-27",
+    "rama": "rf27_reporte_ventas",
+    "archivo": "EP_RF27_reporte_ventas.patch",
+    "pantalla": "reportes",
+    "operacion": "Ventas del restaurante"
+  },
+  {
+    "requisito": "RF-28",
+    "rama": "rf28_historial_cajas",
+    "archivo": "EP_RF28_historial_cajas.patch",
+    "pantalla": "reportes",
+    "operacion": "Historial de cierres"
+  },
+  {
+    "requisito": "RF-29",
+    "rama": "rf29_reporte_atencion",
+    "archivo": "EP_RF29_reporte_atencion.patch",
+    "pantalla": "reportes",
+    "operacion": "Atención y cancelaciones"
+  },
+  {
+    "requisito": "RF-30",
+    "rama": "rf30_guardar_usuario",
+    "archivo": "EP_RF30_guardar_usuario.patch",
+    "pantalla": "equipo",
+    "operacion": "Crear o editar integrante"
+  }
+]
