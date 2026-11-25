@@ -19,9 +19,12 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Content-Type', tipo + '; charset=utf-8')
         self.send_header('Content-Length', str(len(data)))
         self.send_header('X-Content-Type-Options', 'nosniff')
+        self.send_header('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
         self.send_header('Referrer-Policy', 'no-referrer')
         self.send_header('Cache-Control', 'no-store' if tipo == 'application/json' else 'no-cache')
         self.send_header('Content-Security-Policy', "default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'")
+        if isinstance(self.connection, ssl.SSLSocket):
+            self.send_header('Strict-Transport-Security', 'max-age=31536000')
         if cookie:
             self.send_header('Set-Cookie', cookie)
         self.end_headers()
@@ -38,6 +41,8 @@ class Handler(BaseHTTPRequestHandler):
         try:
             path = urlparse(self.path).path
             if path == '/salud':
+                with conectar() as c:
+                    c.execute('SELECT 1 FROM usuarios LIMIT 1').fetchone()
                 return self.responder(200, {'ok': True})
             if path == '/api/catalogo':
                 with conectar() as c:
@@ -81,7 +86,7 @@ class Handler(BaseHTTPRequestHandler):
                     c.execute('DELETE FROM intentos WHERE usuario=?', (id,))
                     token = secrets.token_urlsafe(32)
                     c.execute('INSERT INTO sesiones VALUES(?,?,?)', (hashlib.sha256(token.encode()).hexdigest(), id, time.time() + 12 * 3600))
-                return self.responder(200, {'ok': True}, cookie='sesion=' + token + '; HttpOnly; SameSite=Strict; Path=/' + ('; Secure' if os.environ.get('PARCHE_TLS_CERT') else ''))
+                return self.responder(200, {'ok': True}, cookie='sesion=' + token + '; HttpOnly; SameSite=Strict; Path=/' + ('; Secure' if isinstance(self.connection, ssl.SSLSocket) else ''))
             with conectar() as c:
                 u = self.usuario(c)
             if self.path == '/api/logout':
@@ -106,6 +111,7 @@ def main():
     if cert:
         contexto = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
         contexto.minimum_version = ssl.TLSVersion.TLSv1_2
+        contexto.options |= ssl.OP_NO_COMPRESSION
         contexto.load_cert_chain(cert, os.environ['PARCHE_TLS_KEY'])
         server.socket = contexto.wrap_socket(server.socket, server_side=True)
     print('El Parche listo en el puerto', server.server_port)
