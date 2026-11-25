@@ -64,12 +64,14 @@ class Handler(BaseHTTPRequestHandler):
             exigir(isinstance(d, dict), 'JSON inválido')
             if self.path == '/api/login':
                 with conectar() as c:
+                    c.execute('BEGIN IMMEDIATE')
+                    c.execute('DELETE FROM sesiones WHERE expira<=?', (time.time(),))
                     id = texto(d['id'])
                     r = c.execute('SELECT * FROM usuarios WHERE id=? AND activo=1', (id,)).fetchone()
                     intento = c.execute('SELECT * FROM intentos WHERE usuario=?', (id,)).fetchone()
                     exigir(not intento or intento['fallos'] < 5 or time.time() - intento['ultimo'] > 300, 'Espere 5 minutos')
                     pin = d.get('pin', '')
-                    exigir(isinstance(pin, str) and len(pin) <= 64, 'PIN inválido')
+                    exigir(isinstance(pin, str) and 8 <= len(pin) <= 64 and pin.isdigit(), 'PIN inválido')
                     valido = r is not None and hmac.compare_digest(clave(pin, r['sal']), r['pin'])
                     if not valido:
                         fallos = intento['fallos'] + 1 if intento and time.time() - intento['ultimo'] <= 300 else 1
