@@ -1,0 +1,5 @@
+RNF-08
+
+El dispositivo guarda pedidos y cobros en IndexedDB antes de enviarlos. Usa identificadores estables y reintentos idempotentes. Las lecturas previas quedan disponibles durante 12 horas para una sesión ya iniciada. No se inicia sesión nueva sin servidor. Un pedido pendiente no llegó a cocina y un cobro pendiente aún no fue conciliado. La pantalla Pendientes distingue rechazos del servidor y conserva los datos hasta resolverlos.
+
+Prueba pendiente en navegador físico: entrar como cajera, consultar menú y caja, desconectar WAN durante dos horas, registrar 20 pedidos y sus cobros, reconectar y comprobar exactamente 20 pedidos sin duplicados. Repetir con caída del servidor, teniendo en cuenta que cocina no recibe las comandas hasta reconectar. No confundir continuidad del registro con entrega inmediata de comandas. Si dos dispositivos venden el mismo stock o cobran el mismo pedido, el servidor rechaza el conflicto; el operador debe resolverlo. No borrar almacenamiento del navegador con pendientes.

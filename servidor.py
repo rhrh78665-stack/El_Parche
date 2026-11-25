@@ -50,7 +50,7 @@ class Handler(BaseHTTPRequestHandler):
                 return self.responder(200, {'usuario': u, 'acciones': {k: {'campos': v['campos']} for k, v in ACCIONES.items() if u['rol'] in v['roles'] and k not in ['consumir_receta', 'validar_referencia']}})
             if path.startswith('/features/') and Path(path).name in {p.name for p in Path(__file__).with_name('web').joinpath('features').glob('*.js')}:
                 return self.responder(200, (Path(__file__).with_name('web') / 'features' / Path(path).name).read_bytes(), 'application/javascript')
-            archivos = {'/': 'index.html', '/app.js': 'app.js', '/style.css': 'style.css', '/cocina.css': 'cocina.css', '/sw.js': 'sw.js'}
+            archivos = {'/': 'index.html', '/app.js': 'app.js', '/style.css': 'style.css', '/cocina.css': 'cocina.css', '/sw.js': 'sw.js', '/transporte.js': 'transporte.js'}
             exigir(path in archivos, 'Ruta inexistente')
             archivo = Path(__file__).with_name('web') / archivos[path]
             tipo = 'text/html' if path == '/' else 'text/css' if path.endswith('.css') else 'application/javascript'

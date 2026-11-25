@@ -10,7 +10,8 @@ def procesar(c, d, u):
     exigir(canal != 'mesa' or (mesa.isdigit() and 1 <= int(mesa) <= 12), 'Mesa inválida')
     lineas = d['lineas']
     exigir(isinstance(lineas, list) and 0 < len(lineas) <= 100, 'Incluya productos')
-    id = str(uuid.uuid4())
+    id = d.get('id') or str(uuid.uuid4())
+    exigir(isinstance(id, str) and str(uuid.UUID(id)) == id, 'Identificador de pedido inválido')
     total = 0
     items = []
     for l in lineas:
