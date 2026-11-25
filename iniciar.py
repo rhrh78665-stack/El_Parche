@@ -1,4 +1,5 @@
 import os, sys, getpass, sqlite3, threading, webbrowser
+from contextlib import closing
 from pathlib import Path
 os.chdir(Path(__file__).resolve().parent)
 if sys.version_info < (3, 12):
@@ -7,7 +8,7 @@ from nucleo import DB
 necesita = True
 if Path(DB).is_file():
     try:
-        with sqlite3.connect(DB) as c:
+        with closing(sqlite3.connect(DB)) as c, c:
             necesita = c.execute('SELECT COUNT(*) FROM usuarios').fetchone()[0] == 0
     except sqlite3.OperationalError:
         necesita = True

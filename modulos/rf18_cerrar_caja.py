@@ -11,4 +11,5 @@ def procesar(c, d, u):
     c.execute('UPDATE cajas SET cierre=?,contado=?,diferencia=? WHERE id=?', (ahora(), contado, diferencia, caja['id']))
     auditar(c, u, 'cierre_caja', caja['id'], {'medios': medios, 'esperado': esperado, 'contado': contado, 'diferencia': diferencia})
     configurar(c, 'respaldo_pendiente', True)
+    configurar(c, 'respaldo_solicitud', str(uuid.uuid4()))
     return {'medios': medios, 'esperado': esperado, 'diferencia': diferencia}

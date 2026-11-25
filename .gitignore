@@ -1,5 +1,7 @@
 datos/
 respaldos/
+respaldos_antes_restaurar/
+*.lock
 __pycache__/
 *.pyc
 *.pem

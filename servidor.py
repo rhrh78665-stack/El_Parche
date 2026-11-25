@@ -1,4 +1,6 @@
-import json, os, ssl, secrets, time, importlib.util
+import json, os, ssl, secrets, time, importlib.util, threading
+from bloqueo import bloquear
+from respaldo import trabajador
 from pathlib import Path
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
@@ -114,7 +116,16 @@ def main():
         contexto.options |= ssl.OP_NO_COMPRESSION
         contexto.load_cert_chain(cert, os.environ['PARCHE_TLS_KEY'])
         server.socket = contexto.wrap_socket(server.socket, server_side=True)
-    print('El Parche listo en el puerto', server.server_port)
-    server.serve_forever()
+    detener = threading.Event()
+    with bloquear(DB + '.lock'):
+        hilo = threading.Thread(target=trabajador, args=(detener,), daemon=True)
+        hilo.start()
+        print('El Parche listo en el puerto', server.server_port)
+        try:
+            server.serve_forever()
+        finally:
+            detener.set()
+            server.server_close()
+            hilo.join(timeout=5)
 if __name__ == '__main__':
     main()
