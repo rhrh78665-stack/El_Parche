@@ -13,6 +13,10 @@ def huella(path):
     return h.hexdigest()
 
 def copiar(carpeta='respaldos'):
+    with bloquear('respaldos/operacion.lock'):
+        return _copiar(carpeta)
+
+def _copiar(carpeta='respaldos'):
     carpeta = Path(carpeta)
     carpeta.mkdir(parents=True, exist_ok=True)
     nombre = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%f') + '.db'

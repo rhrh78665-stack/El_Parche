@@ -55,7 +55,7 @@ def estado_caja(c, d, u):
     pagos = [dict(x) for x in c.execute('SELECT * FROM pagos WHERE caja=? AND anulado=0 ORDER BY fecha DESC', (r['id'],))]
     return {'caja': dict(r), 'pagos': pagos, 'efectivo': sum((x['valor'] for x in pagos if x['medio'] == 'efectivo'))}
 
-@accion('guardar_cliente_visual', 'cajera', 'celular,nombre,direccion,barrio,referencia,autorizacion_medio')
+@accion('guardar_cliente_visual', 'cajera,administrador', 'celular,nombre,direccion,barrio,referencia,autorizacion_medio')
 def cliente(c, d, u):
     celular = texto(d['celular'], 20)
     exigir(celular.isdigit(), 'Celular inválido')

@@ -1,7 +1,18 @@
 const permitidas = new Set(['registrar_pedido', 'pedido_mesa', 'cobrar_pedido']);
-const lecturas = new Set(['cola_pedidos','pedidos_demorados','comandas','buscar_cliente','cuadre_domiciliario','consultar_existencias','alertas_stock','menu_disponible','reporte_ventas','historial_cajas','reporte_atencion','mis_domicilios','ver_auditoria','listar_usuarios','pedidos_operables','detalle_pedido','lineas_operables','modificadores_producto','estado_caja','integridad_auditoria','preferencias_operacion']);
+const lecturas = new Set(['cola_pedidos','pedidos_demorados','comandas','buscar_cliente','cuadre_domiciliario','consultar_existencias','alertas_stock','menu_disponible','reporte_ventas','historial_cajas','reporte_atencion','mis_domicilios','ver_auditoria','listar_usuarios','pedidos_operables','detalle_pedido','lineas_operables','modificadores_producto','estado_caja','integridad_auditoria','preferencias_operacion','version_privacidad','listar_clientes']);
 let propietario = sessionStorage.getItem('parche.usuario') || '';
 let sincronizando = false;
+async function revisarPrivacidad() {
+ if (!propietario) return;
+ const respuesta = await red('/api/accion/version_privacidad', {}, crypto.randomUUID());
+ const clave = 'parche.privacidad.' + propietario;
+ const anterior = sessionStorage.getItem(clave);
+ if (anterior !== String(respuesta.version)) {
+  for (const item of await registros('cache')) if (item.id.startsWith(propietario+':')) await borrar('cache',item.id);
+  if ((await pendientes()).length) throw new Error('Cambió la política de supresión de datos. Hay pendientes: resuélvelos antes de purgar el almacenamiento de este dispositivo.');
+ }
+ sessionStorage.setItem(clave,String(respuesta.version));
+}
 const disponible = new Promise((resolve, reject) => {
  const solicitud = indexedDB.open('parche-operacion-v2', 1);
  solicitud.onupgradeneeded = () => {
@@ -60,6 +71,7 @@ export async function sincronizar() {
  if (sincronizando) return;
  sincronizando = true;
  try {
+  await revisarPrivacidad();
   for (const item of await pendientes()) {
    if (item.estado === 'rechazada') break;
    try {
@@ -74,6 +86,8 @@ export async function sincronizar() {
     break;
    }
   }
+ } catch(e) {
+  window.dispatchEvent(new CustomEvent('parche-error',{detail:e.message}));
  } finally {
   sincronizando = false;
   window.dispatchEvent(new Event('parche-pendientes'));
@@ -99,7 +113,7 @@ export async function transporte(path, data, id) {
   if (escritura) await borrar('cola', id);
   if (path === '/api/catalogo') {
    propietario = result.usuario.id;
-   sessionStorage.setItem('parche.usuario', propietario);
+   sessionStorage.setItem('parche.usuario', propietario);await revisarPrivacidad();
    await guardar('cache', {id:propietario+':catalogo',valor:result,fecha:Date.now()});
   } else if (lecturas.has(clave)) {
    await guardar('cache', {id:cacheId,valor:result,fecha:Date.now()});

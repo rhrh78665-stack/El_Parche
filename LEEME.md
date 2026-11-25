@@ -41,9 +41,9 @@ Los modificadores no incluyen sobreprecio ni ingredientes extra: esa política n
 
 Las cancelaciones cobradas requieren administrador. Sus pagos se excluyen de los reportes; la devolución física se realiza por el procedimiento del restaurante. No se repone automáticamente un insumo ya consumido.
 
-No incluye integraciones bancarias, bot de WhatsApp, APIs de plataformas, facturación electrónica ni diseño de logo. Esta entrega prioriza los funcionales: no declara cumplidos los RNF de disponibilidad, operación desconectada, respaldo o conservación normativa.
+No incluye integraciones bancarias, bot de WhatsApp, APIs de plataformas, facturación electrónica ni diseño de logo. Los controles de RNF y sus límites están detallados en ESTADO_RNF.md. La aceptación de rendimiento visible, disponibilidad mensual, compatibilidad física y privacidad en dispositivos desconectados sigue pendiente.
 
-No hay registro nuevo sin conexión al servidor ni cola offline en esta interfaz. Se mantiene un identificador por intento de formulario mientras permanezca abierto, para evitar duplicar una solicitud con respuesta incierta. Ante un corte no cierre el formulario hasta verificar el resultado.
+La interfaz conserva pedidos y cobros en IndexedDB cuando no puede contactar el servidor. Una operación pendiente no equivale a una comanda entregada ni a un cobro conciliado. Abra Pendientes para sincronizar y resolver rechazos. Se necesita una sesión iniciada y consultas previas del menú y de caja; no existe un nuevo login sin servidor. No borre el almacenamiento con operaciones pendientes.
 
 ## Validación
 
@@ -51,6 +51,6 @@ No hay registro nuevo sin conexión al servidor ni cola offline en esta interfaz
 py -3 -m unittest discover -s tests -v
 ```
 
-Nueve pruebas de lógica y comprobaciones de sintaxis Python/JavaScript. Aplicación y comparación de todos los parches en carpeta vacía. La inspección visual e interacción de extremo a extremo en un navegador quedan pendientes: el entorno de revisión no pudo iniciar su navegador local ni acceder al servidor desde el navegador remoto. No se presentan como pruebas aprobadas.
+Veinticinco pruebas Python de lógica y controles y comprobaciones de sintaxis Python/JavaScript. Aplicación y comparación de todos los parches en carpeta vacía. La inspección visual e interacción de extremo a extremo en un navegador quedan pendientes: el entorno de revisión no pudo iniciar su navegador local ni acceder al servidor desde el navegador remoto. No se presentan como pruebas aprobadas.
 
-El servidor escucha en 127.0.0.1. Para probar LAN requiere certificados confiables y variables PARCHE_HOST, PARCHE_TLS_CERT y PARCHE_TLS_KEY. Los RNF se completarán en una etapa separada.
+El servidor escucha en 127.0.0.1. Para probar LAN requiere certificados confiables y variables PARCHE_HOST, PARCHE_TLS_CERT y PARCHE_TLS_KEY. Las validaciones de campo pendientes se indican en ESTADO_RNF.md.
